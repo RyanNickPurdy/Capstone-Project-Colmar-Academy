@@ -1,0 +1,136 @@
+/* Layout Styling */
+
+.container {
+  display: flex;
+}
+
+/* Header Styling */
+
+header {
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  border-bottom: solid 2px #EEEEEE;
+}
+
+header .logo {
+  flex: 1;
+}
+
+/* Text Styling */
+
+h1 {
+  font-size: 24px;
+}
+
+/* Test Area */
+
+.hero-banner {
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  background-color: lightgray;
+  width: 100%;
+}
+
+.hero-banner img {
+  width: 60%;
+  margin: 32px 40px 32px 24px;
+}
+
+.hero-banner-text {
+  margin: 0;
+}
+
+.hero-banner-image {
+  margin: 0;
+}
+
+.button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: gray;
+  color: white;
+}
+
+/* Padding Styling */
+
+.pad-xs-t {
+  padding-top: 8px;
+}
+
+.pad-xs-l {
+  padding-left: 8px;
+}
+
+.pad-xs-r {
+  padding-right: 8px;
+}
+
+.pad-xs-b {
+  padding-bottom: 8px;
+}
+
+.pad-s-t {
+  padding-top: 8px;
+}
+
+.pad-s-l {
+  padding-left: 16px;
+}
+
+.pad-s-r {
+  padding-right: 16px;
+}
+
+.pad-s-b {
+  padding-bottom: 16px;
+}
+
+.pad-m-t {
+  padding-top: 24px;
+}
+
+.pad-m-l {
+  padding-left: 24px;
+}
+
+.pad-m-r {
+  padding-right: 24px;
+}
+
+.pad-m-b {
+  padding-bottom: 24px;
+}
+
+.pad-l-t {
+  padding-top: 32px;
+}
+
+.pad-l-l {
+  padding-left: 32px;
+}
+
+.pad-l-r {
+  padding-right: 32px;
+}
+
+.pad-l-b {
+  padding-bottom: 32px;
+}
+
+.pad-xl-t {
+  padding-top: 40px;
+}
+
+.pad-xl-l {
+  padding-left: 40px;
+}
+
+.pad-xl-r {
+  padding-right: 40px;
+}
+
+.pad-xl-b {
+  padding-bottom: 40px;
+}
